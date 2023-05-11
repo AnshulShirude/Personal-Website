@@ -52,9 +52,13 @@ body {
 }
 
 .slide-container {
-  width: 30%; /* Set the width to half the screen */
-  margin: 0 auto; /* Center the container horizontally */
-  overflow: hidden; /* Hide any content that overflows the container */
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  transform: translate(0, -50%);
+  width: 35%;
+  height: auto;
+  overflow: hidden;
 }
 
 .outer-container {
@@ -88,9 +92,33 @@ body {
   width: 100%;
 }
 
-.each-slide-effect span {
-  padding: 20px;
-  font-size: 20px;
-  background: #efefef;
-  text-align: center;
+.wave-container {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-55%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding: 2rem;
+  color: black;
+}
+
+.hand-wave {
+  font-size: 2rem;
+}
+
+.name {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  font-weight: bold; /* Add this line to bold the name */
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  color: gray; /* Set the description color to gray */
+  white-space: wrap; /* Add this line to allow the description to wrap around */
 }
