@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles.css';
-import { Slide } from 'react-slideshow-image';
+import { Slide, Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import pic1 from '../images/anshulPic.jpg'
 import pic2 from '../images/anshulPic2.jpg'
@@ -9,8 +9,10 @@ import pic4 from '../images/anshulPic4.jpg'
 
 const Home = () => {
   return (
+    <div className="outer-container">
+    <div className="inner-container">
     <div className="slide-container">
-      <Slide autoplay={false}>
+      <Slide autoplay={false} duration={5000}>
         <div className="each-slide-effect">
           <div
             style={{
@@ -40,6 +42,8 @@ const Home = () => {
           />
         </div>
       </Slide>
+    </div>
+    </div>
     </div>
   );
 };
