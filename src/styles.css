@@ -7,9 +7,16 @@ body {
 }
 
 .container {
-    margin: 1rem;
-    text-align: center;
-    
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+}
+
+.site-title {
+  font-size: 2rem;
+  margin-top: 2rem; /* Add margin-top to separate it from the navbar */
 }
 
 .nav {
@@ -20,10 +27,6 @@ body {
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
-}
-
-.site-title {
-  font-size: 2rem;
 }
 
 .nav ul {
