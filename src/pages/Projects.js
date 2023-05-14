@@ -1,3 +1,13 @@
-export default function Projects() {
-    return <h1>Projects</h1>
+const Projects = () => {
+    return (
+        <div className="outer-container">
+            <div className="inner-container">
+                
+            </div>
+        </div>
+        
+    )
 }
+    
+
+export default Projects;
