@@ -2,19 +2,25 @@ const Experience = () => {
     return (
         <div className="outer-container">
             <div className="inner-container">
-            <h1>Professional Experience</h1>
+                <h1>👔 Professional Experience 👔</h1>
                 <div> 
-                    <h2>eMoney Financial Advisor</h2>
-                    <h3>Software Developer Co-op</h3>
-                    <h4>July 2023 - December 2023</h4>
-                    <ul>
-                        <li>eMoney is a comprehensive and scalable technology platform and services that empowers financial advisors to meet a broad range of financial planning needs for their clients. </li>
-                        <li>Project experience coming soon!!!</li>
-                    </ul>
+                    <div class="company">
+                        <img src="https://mma.prnewswire.com/media/473344/eMoney_Advisor_Logo.jpg?p=facebook" alt="Logo" class="logo"/>
+                    </div>  
+                    <div class="lined"> 
+                        <h3>Software Developer Co-op</h3>
+                        <h4>July 2023 - December 2023</h4>
+                        <ul>
+                            <li>eMoney is a comprehensive and scalable technology platform and services that empowers financial advisors to meet a broad range of financial planning needs for their clients.</li>
+                            <li>Project experience coming soon!!!</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div> 
-                    <h2>CGI Inc.</h2>
+                    <div class="company">
+                        <img src="https://companieslogo.com/img/orig/GIB-e0c1f0d7.png?t=1658656116" alt="Logo1" class="logo1"/>
+                    </div>  
                     <h3>Software Developer Intern</h3>
                     <h4>July 2022 - August 2022</h4>
                     <ul>
@@ -26,9 +32,11 @@ const Experience = () => {
                         <li>Technologies: SQL, Excel, VBA</li>
                     </ul>
                 </div>
-
+                
                 <div> 
-                    <h2>Veea Inc.</h2>
+                    <div class="company">
+                        <img src="https://www.intelligenttransport.com/wp-content/uploads/veaa-logo.jpg" alt="Logo1" class="logo1"/>
+                    </div>  
                     <h3>Software Developer Intern</h3>
                     <h4>July 2021 - August 2021</h4>
                     <ul>

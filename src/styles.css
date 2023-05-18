@@ -1,3 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
+body {
+  font-family: 'Montserrat', serif;
+}
+
 .container {
   margin: 1rem;
   text-align: center;
@@ -68,7 +74,7 @@
 
 .inner-container {
   position: absolute;
-  top: 42%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
@@ -79,8 +85,24 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start; /* Align content to the start (top) */
-  align-items: flex-start; /* Align content to the start (left) */
   padding: 2rem;
+}
+
+.inner-container > div {
+  margin-bottom: 1rem; /* Adjust the spacing between job experience divs */
+  text-align: left; /* Align text to the left */
+  line-height: 1.2; /* Adjust the line height to bring the text closer together */
+}
+
+.inner-container > div h2,
+.inner-container > div h3,
+.inner-container > div h4 {
+  margin-bottom: 0.3rem; /* Adjust the spacing between header, position, and dates */
+  line-height: .5; /* Adjust the line height to bring the text closer together */
+}
+
+.inner-container > div h4 {
+  color: gray;
 }
 
 .each-slide-effect > div {
@@ -122,4 +144,22 @@
   margin-top: 0.5rem;
   color: gray;
   white-space: normal;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 3rem;
+  margin-right: 0.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: -0.5rem;
+}
+
+.logo1 {
+  height: 3rem;
+  margin-right: 0.5rem;
+  margin-top: 0.3rem;
 }
