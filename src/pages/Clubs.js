@@ -1,10 +1,16 @@
+import idea from '../images/ideaLogo.jpeg'
+import eclub from '../images/eclub.jpg'
+import disrupt from '../images/disrupt.png'
+
 const Clubs = () => {
     return (
         <div className="outer-container">
             <div className="inner-container">
                 <h1> Clubs @ Northeastern</h1>
-                <div> 
-                    <h2>TAMID</h2>
+                <div>
+                    <div class="company">
+                        <img src="https://nutamid.org/wp-content/uploads/2021/09/Frame-4-5.png" alt="Logo" class="logo"/>
+                    </div>
                     <h4>December 2021 - April 2023</h4>
                     <ul>
                         <li>TAMID is a national consulting club which connects undergraduate students with startups within the Israeli economy.</li>
@@ -16,7 +22,9 @@ const Clubs = () => {
                     </ul>
                 </div>
                 <div>
-                    <h2>IDEA</h2>
+                    <div class="company">
+                        <img src={idea} alt="Logo" class="logo"/>
+                    </div>
                     <h4>April 2023 - Present</h4>
                     <ul>
                         <li>IDEA is Northeastern's student-led venture accelerator that fosters the development of entrepreneurs in the Northeastern community through the educational experience of developing a business from concept to launch.</li>
@@ -26,7 +34,9 @@ const Clubs = () => {
                     </ul>
                 </div>
                 <div> 
-                    <h2>Entrepreneur's Club</h2>
+                    <div class="company">
+                        <img src={eclub} alt="Logo" class="logo2"/>
+                    </div>
                     <h4>January 2023 - April 2023</h4>
                     <ul>
                         <li>Entrepreneur's Club is Northeastern's largest student-led organization on campus with over 2000 active members and more than 30 events each semester across 4 programs.</li>
@@ -34,7 +44,9 @@ const Clubs = () => {
                     </ul>
                 </div>
                 <div> 
-                    <h2>Disrupt</h2>
+                    <div class="company">
+                        <img src={disrupt} alt="Logo" class="logo3"/>
+                    </div>
                     <h4>September 2022 - December 2022</h4>
                     <ul>
                         <li>Disrupt is a community to drive education, advancement and engagement in the space of Financial Technology (Fintech) at Northeastern.</li>

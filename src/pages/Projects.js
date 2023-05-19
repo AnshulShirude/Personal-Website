@@ -8,10 +8,10 @@ const Projects = () => {
                     <h3>Assign and take on tasks with your roommates</h3>
                     <h4>September 2021 - December 2021</h4>
                     <ul>
-                        <li>A web-app deployed in React for users to assign, add, delete, and mark completed tasks within roommates.</li>
+                        <li>A web-app deployed in ReactJS for users to assign, add, delete, and mark completed tasks within roommates.</li>
                         <li>First project that I led in a team of 3 people in college.</li>
                         <li>Started from scratch including the ideation phase to full development of the product.</li>
-                        <li>Designed Figma mockups, followed by the coding in React JS with CSS for the styling. Management of state and effect done via hooks.</li>
+                        <li>Designed Figma mockups, followed by the coding in ReactJS with CSS for the styling. Management of state and effect done via hooks.</li>
                         <li>Code is available to view here.</li>
                         <li>Technologies: ReactJS, JavaScript, CSS, HTML, Figma</li>
                     </ul>
@@ -29,6 +29,16 @@ const Projects = () => {
                         <li>Imported OpenCV and Sys to handle facial recognition and assist in game development.</li>
                         <li>Code is available to view here.</li>
                         <li>Technologies: Python, Sys Module, OpenCV</li>
+                    </ul>
+                </div>
+
+                <div> 
+                    <h2>Image Processing</h2>
+                    <h3>Graphical User Interface integrated Image Editor</h3>
+                    <h4>June 2022</h4>
+                    <ul>
+                        <li></li>
+                        <li>Technologies used: </li>
                     </ul>
                 </div>
             </div>
