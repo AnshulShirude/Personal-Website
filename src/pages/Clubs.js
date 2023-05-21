@@ -48,7 +48,7 @@ const Clubs = () => {
                         <h4>January 2023 - April 2023</h4>
                         <ul>
                             <li><a href="https://www.nuentrepreneursclub.com/" target="_blank" class="link-black">Entrepreneur's Club</a> is Northeastern's largest student-led organization on campus with over 2000 active members and more than 30 events each semester across 4 programs.</li>
-                            <li>Took part in the <a href="https://www.nuentrepreneursclub.com/hsc" target="_blank" class="link-black">Husky Startup Challenge</a> to develop my <strong>venture Commently</strong>, the largest flagship program which provides early stage startups with the knowledge, resources, and mentorship they need to flourish.</li>
+                            <li>Took part in the <a href="https://www.nuentrepreneursclub.com/hsc" target="_blank" class="link-black">Husky Startup Challenge</a> to develop my venture <strong><a href="https://www.canva.com/design/DAFd2oafMp8/9YSWjSzu-znNME6JQyZ-fA/edit?utm_content=DAFd2oafMp8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="link-black">Commently</a></strong>, the largest flagship program which provides early stage startups with the knowledge, resources, and mentorship they need to flourish.</li>
                         </ul>
                     </div>
                 </div>

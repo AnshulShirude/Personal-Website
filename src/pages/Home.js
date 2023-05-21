@@ -10,7 +10,7 @@ import pic4 from '../images/anshulPic4.jpg'
 const Home = () => {
   return (
     <div className="outer-container">
-      <div className="inner-container">
+      <div className="inner-container about-container">
         <div className="wave-container">
           <div className="hand-wave">
             👋
@@ -19,7 +19,18 @@ const Home = () => {
             Hello, I am Anshul Shirude
           </div>
           <div className="description">
-            I am a junior at Northeastern University studying <br /> Computer Science. My interests lie in data visualization, <br /> machine learning, and full stack development.
+            I am a junior at <a href="https://www.northeastern.edu/" target="_blank" className="link-gray-description">Northeastern University</a> studying <br /> Computer Science. My interests lie in data visualization, <br /> machine learning, and full stack development.
+          </div>
+          <div className="links"> 
+            <div className="github-link">
+              <a href="https://github.com/AnshulShirude" target="_blank" className="link-black">GitHub</a>
+            </div>
+            <div className="resume-link">
+              <a href="https://drive.google.com/file/d/1LZ5vsNFHDr3sLIbxWMLY_lbwcsP8TcuC/view?usp=sharing" target="_blank" className="link-black">Resume</a>
+            </div>
+            <div className="linkedin-link">
+              <a href="https://www.linkedin.com/in/anshul-shirude/" target="_blank" className="link-black">LinkedIn</a>
+            </div>
           </div>
         </div>
         <div className="slide-container">
@@ -54,6 +65,9 @@ const Home = () => {
             </div>
           </Slide>
         </div>
+          <div className="quote">
+            "You miss 100% of the shots you don't take." - Wayne Gretzky
+          </div>
       </div>
     </div>
   );
