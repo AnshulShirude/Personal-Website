@@ -6,6 +6,8 @@ import pic1 from '../images/anshulPic.jpg'
 import pic2 from '../images/anshulPic2.jpg'
 import pic3 from '../images/anshulPic3.jpg'
 import pic4 from '../images/anshulPic4.jpg'
+import pic5 from '../images/anshulPic5.jpg'
+import pic6 from '../images/anshulPic6.jpg'
 
 const Home = () => {
   return (
@@ -19,7 +21,7 @@ const Home = () => {
             Hello, I am Anshul Shirude
           </div>
           <div className="description">
-            I am a junior at <a href="https://www.northeastern.edu/" target="_blank" className="link-gray-description">Northeastern University</a> studying <br /> Computer Science. My interests lie in data visualization, <br /> machine learning, and full stack development.
+            I am a junior at <a href="https://www.northeastern.edu/" target="_blank" className="link-gray-description">Northeastern University</a> studying <br /> <strong>Computer Science</strong>. My interests lie in data visualization, <br /> machine learning, and full stack development.
           </div>
           <div className="links"> 
             <div className="github-link">
@@ -60,6 +62,20 @@ const Home = () => {
               <div
                 style={{
                   backgroundImage: `url(${pic4})`
+                }}
+              />
+            </div>
+            <div className="each-slide-effect">
+              <div
+                style={{
+                  backgroundImage: `url(${pic5})`
+                }}
+              />
+            </div>
+            <div className="each-slide-effect">
+              <div
+                style={{
+                  backgroundImage: `url(${pic6})`
                 }}
               />
             </div>
