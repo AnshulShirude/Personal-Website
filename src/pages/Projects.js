@@ -7,7 +7,9 @@ const Projects = () => {
                 <div> 
                     <div class="lined">
                         <h2>College Compass</h2>
-                        <h3>Find me a Match</h3>
+                        <div className="project-details">
+                            <h3>Find me a Match</h3>
+                        </div>
                         <h4>March 2023 - April 2023</h4>
                         <ul>
                             <li>College Compass 🧭 was created with the purpose of <strong>providing students 👨‍🎓 an opportunity to view and favorite specific colleges 🏫</strong>, and for <strong>colleges to view prospective students</strong> that are interested in them.</li>
@@ -33,7 +35,9 @@ const Projects = () => {
                 <div> 
                     <div class="lined">
                         <h2>Image Processing</h2>
-                        <h3>Graphical User Interface Integrated Image Editor</h3>
+                        <div className="project-details">
+                            <h3>GUI Integrated Image Editor</h3>
+                        </div>
                         <h4>June 2022</h4>
                         <ul>
                             <li>Java image processing application with <strong>text-based ⌨️, Graphical User Interface (GUI) 🗾, and command line functionality</strong>.</li>
@@ -51,7 +55,9 @@ const Projects = () => {
                 <div> 
                     <div class="lined">
                         <h2>Web Crawler</h2>
-                        <h3>Traverse the page for the secret flags</h3>
+                        <div className="project-details">
+                            <h3>Finds the Secret Flags</h3>
+                        </div>
                         <h4>April 2023</h4>
                         <ul>
                             <li>Gathers and traverses a fake social network, Fakebook, to collect 5 secret flags 🚩 that have been hidden somewhere on the Fakebook website.</li>
@@ -67,7 +73,9 @@ const Projects = () => {
                 <div> 
                     <div class="lined">
                         <h2>Hangman with my Nose</h2>
-                        <h3>Multiplayer skribbl.io inspired game</h3>
+                        <div className="project-details">
+                            <h3>Multiplayer Skribbl.io Inspired Game</h3>
+                        </div>
                         <h4>February 2022 - April 2022</h4>
                         <ul>
                             <li>Built a game for the user to draw the word ✍️ on the screen most accurately using their nose 👃.</li>
@@ -84,7 +92,9 @@ const Projects = () => {
                 <div> 
                     <div class="lined">
                         <h2>Chores4Us</h2>
-                        <h3>Assign and take on tasks with your roommates</h3>
+                        <div className="project-details">
+                            <h3>Task Manager with your Roommates</h3>
+                        </div>
                         <h4>September 2021 - December 2021</h4>
                         <ul>
                             <li>A web-app deployed in <strong>ReactJS</strong> for users to assign, add ➕, delete ➖, and mark completed ✅ tasks within roommates.</li>

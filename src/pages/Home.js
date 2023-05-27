@@ -21,7 +21,7 @@ const Home = () => {
             Hello, I am Anshul Shirude
           </div>
           <div className="description">
-            I am a junior at <a href="https://www.northeastern.edu/" target="_blank" className="link-gray-description">Northeastern University</a> studying <br /> <strong>Computer Science</strong>. My interests lie in data visualization, <br /> machine learning, and full stack development.
+            I am a junior at 🐾 <a href="https://www.northeastern.edu/" target="_blank" className="link-gray-description">Northeastern University</a> 🐾 studying <br /> <strong>Computer Science</strong>. My interests lie in data visualization,<br /> machine learning, and full stack development.
           </div>
           <div className="links"> 
             <div className="github-link">
