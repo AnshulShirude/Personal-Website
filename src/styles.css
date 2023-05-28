@@ -131,8 +131,8 @@ body {
 .inner-container > div h2,
 .inner-container > div h3,
 .inner-container > div h4 {
-  margin-bottom: 0.3rem; /* Adjust the spacing between header, position, and dates */
-  line-height: .5; /* Adjust the line height to bring the text closer together */
+  margin-bottom: 0.3rem;
+  line-height: .5;
 }
 
 .inner-container > div h4 {
