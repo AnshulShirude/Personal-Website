@@ -9,13 +9,15 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align content to the start (left) */
+  align-items: flex-start;
 }
 
 @media (max-width: 768px) {
   .nav {
     flex-direction: column;
     align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .site-title {
@@ -26,22 +28,9 @@ body {
 .nav {
   color: black;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  gap: 2rem;
   padding: 0 1rem;
-}
-
-.site-title {
-  font-size: 2rem;
-  margin-top: 1rem;
-  display: block;
-}
-
-@media (max-width: 768px) {
-  .site-title {
-    display: none;
-  }
 }
 
 .nav ul {
@@ -50,10 +39,27 @@ body {
   list-style: none;
   display: flex;
   gap: 1rem;
-  align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-end; 
+  width: 80%;
+  /* margin-right: 9rem; */
 }
 
+.experience-link {
+  margin-left: auto;
+}
+
+.site-title {
+  font-size: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  /* margin-left: 9rem; */
+}
+
+@media (max-width: 768px) {
+  .site-title {
+    display: none;
+  }
+}
 
 .nav ul li a:hover {
   color: blue;
@@ -67,6 +73,10 @@ body {
   align-items: center;
   padding: .25rem;
 }
+
+
+
+
 
 .slide-container {
   position: absolute;
