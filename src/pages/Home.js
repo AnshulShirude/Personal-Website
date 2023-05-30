@@ -36,7 +36,7 @@ const Home = () => {
           </div>
         </div>
         <div className="slide-container">
-          <Slide autoplay={false} duration={1000}>
+          <Slide autoplay={true} duration={5000}>
             <div className="each-slide-effect">
               <div
                 style={{
