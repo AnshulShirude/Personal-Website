@@ -36,7 +36,9 @@ const Projects = () => {
                     <div class="lined">
                         <h2>Image Processing</h2>
                         <div className="project-details">
-                            <h3>GUI Integrated Image Editor</h3>
+                            <div class="header">
+                                <h3>GUI Integrated Image Editor</h3>
+                            </div>
                         </div>
                         <h4>June 2022</h4>
                         <ul>
@@ -72,8 +74,10 @@ const Projects = () => {
 
                 <div> 
                     <div class="lined">
-                        <h2>Hangman with my Nose</h2>
-                        <div className="project-details">
+                        <div class="header">
+                            <h2>Hangman with my Nose</h2>
+                        </div>
+                        <div class="header">
                             <h3>Multiplayer Skribbl.io Inspired Game</h3>
                         </div>
                         <h4>February 2022 - April 2022</h4>
@@ -92,10 +96,12 @@ const Projects = () => {
                 <div> 
                     <div class="lined">
                         <h2>Chores4Us</h2>
-                        <div className="project-details">
+                        <div className="header">
                             <h3>Task Manager with your Roommates</h3>
                         </div>
-                        <h4>September 2021 - December 2021</h4>
+                        <div class="header">
+                            <h4>September 2021 - December 2021</h4>
+                        </div>
                         <ul>
                             <li>A web-app deployed in <strong>ReactJS</strong> for users to assign, add ➕, delete ➖, and mark completed ✅ tasks within roommates.</li>
                             <li>First project that I led in a team of 3 people in college.</li>

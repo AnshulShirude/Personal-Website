@@ -57,7 +57,9 @@ const Clubs = () => {
                         <img src={disrupt} alt="Logo" class="logo3"/>
                     </div>
                     <div class="lined">
-                        <h4>September 2022 - December 2022</h4>
+                        <div class="header">
+                            <h4>September 2022 - December 2022</h4>
+                        </div>
                         <ul>
                             <li><a href="https://www.disruptneu.com/" target="_blank" class="link-black">Disrupt</a> is a community to drive education, advancement and engagement in the space of Financial Technology (Fintech) at Northeastern.</li>
                             <li>Fully developed a venture idea, <strong><a href="https://pitch.com/public/c9393995-caac-48c3-8cbb-935aaf3cdf73" target="_blank" class="link-black">Azura</a></strong>, in relation to investing based upon stock 📈 market trends.</li>

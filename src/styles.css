@@ -233,6 +233,11 @@ body {
   line-height: 1.5;
 }
 
+.header {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .links {
   display: flex;
   justify-content: center;
