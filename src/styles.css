@@ -179,6 +179,14 @@ body {
   color: gray;
   white-space: normal;
   margin-bottom: 2rem;
+  overflow-wrap: break-word;
+  max-width: 40%;
+}
+
+@media (max-width: 1100px) {
+  .description {
+    overflow-wrap: break-word;
+  }
 }
 
 .company {

@@ -1,15 +1,58 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import '../styles.css';
-import { Slide, Fade } from 'react-slideshow-image';
+import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import pic1 from '../images/anshulPic.jpg'
-import pic2 from '../images/anshulPic2.jpg'
-import pic3 from '../images/anshulPic3.jpg'
-import pic4 from '../images/anshulPic4.jpg'
-import pic5 from '../images/anshulPic5.jpg'
-import pic6 from '../images/anshulPic6.jpg'
+import pic1 from '../images/anshulPic.jpg';
+import pic2 from '../images/anshulPic2.jpg';
+import pic3 from '../images/anshulPic3.jpg';
+import pic4 from '../images/anshulPic4.jpg';
+import pic5 from '../images/anshulPic5.jpg';
+import pic6 from '../images/anshulPic6.jpg';
 
 const Home = () => {
+  const descriptionRef = useRef(null);
+  const nameRef = useRef(null);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const descriptionElement = descriptionRef.current;
+      const nameElement = nameRef.current;
+
+      if (descriptionElement && nameElement) {
+        const descriptionContainerWidth = descriptionElement.offsetWidth;
+        const nameContainerWidth = nameElement.offsetWidth;
+        const nameTextWidth = nameElement.scrollWidth;
+        const nameThreshold = nameContainerWidth * 0.4;
+
+        if (nameTextWidth < 525 && nameThreshold < 200) {
+          console.log(nameTextWidth)
+          console.log(nameThreshold)
+          nameElement.style.maxWidth = '70%'; // 70% for smaller window screens
+        } else {
+          console.log("else branch")
+          console.log(nameTextWidth)
+          console.log(nameThreshold)
+          nameElement.style.maxWidth = '65%'; // 65% for larger window screens
+        }
+
+        const descriptionTextWidth = descriptionElement.scrollWidth;
+        const descriptionThreshold = descriptionContainerWidth * 0.4;
+
+        if (descriptionTextWidth < 450 && descriptionThreshold < 200) {
+          descriptionElement.style.maxWidth = '85%'; // 85% for mobile
+        } else {
+          descriptionElement.style.maxWidth = '50%'; // 50% for desktop
+        }
+      }
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div className="outer-container">
       <div className="inner-container about-container">
@@ -17,11 +60,11 @@ const Home = () => {
           <div className="hand-wave">
             👋
           </div>
-          <div className="name">
+          <div className="name" ref={nameRef}>
             Hello, I am Anshul Shirude
           </div>
-          <div className="description">
-            I am a junior at 🐾 <a href="https://www.northeastern.edu/" target="_blank" className="link-gray-description">Northeastern University</a> 🐾 studying <br /> <strong>Computer Science</strong>. My interests lie in data visualization,<br /> machine learning, and full stack development.
+          <div className="description" ref={descriptionRef}>
+            I am a junior at 🐾 <a href="https://www.northeastern.edu/" target="_blank" className="link-gray-description">Northeastern University</a> 🐾 studying <strong>Computer Science</strong>. My interests lie in data visualization, machine learning, and full stack development.
           </div>
           <div className="links"> 
             <div className="github-link">
@@ -36,7 +79,7 @@ const Home = () => {
           </div>
         </div>
         <div className="slide-container">
-          <Slide autoplay={true} duration={5000}>
+          <Slide autoplay={true} duration={3000}>
             <div className="each-slide-effect">
               <div
                 style={{
@@ -81,9 +124,9 @@ const Home = () => {
             </div>
           </Slide>
         </div>
-          <div className="quote">
-            "You miss 100% of the shots you don't take." - Wayne Gretzky
-          </div>
+        <div className="quote">
+          "You miss 100% of the shots you don't take." - Wayne Gretzky
+        </div>
       </div>
     </div>
   );
