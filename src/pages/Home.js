@@ -17,35 +17,33 @@ const Home = () => {
     const handleResize = () => {
       const descriptionElement = descriptionRef.current;
       const nameElement = nameRef.current;
-
+    
       if (descriptionElement && nameElement) {
         const descriptionContainerWidth = descriptionElement.offsetWidth;
         const nameContainerWidth = nameElement.offsetWidth;
+    
+        // Set initial maximum widths based on desired styling
+        nameElement.style.maxWidth = '70%'; // 70% for smaller window screens
+        descriptionElement.style.maxWidth = '85%'; // 85% for mobile
+    
         const nameTextWidth = nameElement.scrollWidth;
         const nameThreshold = nameContainerWidth * 0.4;
-
-        if (nameTextWidth < 525 && nameThreshold < 200) {
-          console.log(nameTextWidth)
-          console.log(nameThreshold)
-          nameElement.style.maxWidth = '70%'; // 70% for smaller window screens
-        } else {
-          console.log("else branch")
-          console.log(nameTextWidth)
-          console.log(nameThreshold)
-          nameElement.style.maxWidth = '65%'; // 65% for larger window screens
+    
+        if (nameTextWidth >= 400 || nameThreshold >= 200) {
+          // Adjust maximum width for larger window screens
+          nameElement.style.maxWidth = '55%'; // 65% for larger window screens
         }
-
+    
         const descriptionTextWidth = descriptionElement.scrollWidth;
         const descriptionThreshold = descriptionContainerWidth * 0.4;
-
-        if (descriptionTextWidth < 450 && descriptionThreshold < 200) {
-          descriptionElement.style.maxWidth = '85%'; // 85% for mobile
-        } else {
+    
+        if (descriptionTextWidth >= 450 || descriptionThreshold >= 200) {
+          // Adjust maximum width for desktop
           descriptionElement.style.maxWidth = '50%'; // 50% for desktop
         }
       }
     };
-
+      
     handleResize();
     window.addEventListener('resize', handleResize);
     return () => {
@@ -124,9 +122,9 @@ const Home = () => {
             </div>
           </Slide>
         </div>
-        <div className="quote">
+        {/* <div className="quote">
           "You miss 100% of the shots you don't take." - Wayne Gretzky
-        </div>
+        </div> */}
       </div>
     </div>
   );
