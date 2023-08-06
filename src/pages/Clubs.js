@@ -33,7 +33,7 @@ const Clubs = () => {
                         <h4>April 2023 - Present</h4>
                         <ul>
                             <li><a href="https://www.northeastern.edu/idea/" target="_blank" class="link-black">IDEA</a> is Northeastern's student-led venture accelerator that fosters the development of entrepreneurs in the Northeastern community through the educational experience of developing a business from concept to launch.</li>
-                            <li>Software Development Lead for my venture <strong><a href="http://surl.li/hdrkq" target="_blank" class="link-black">Commently</a></strong>, a platform which creates a <strong>visual report based upon analyzing customer ratings and reviews</strong> using Natural Language Processing.</li>
+                            <li>Software Development Lead for my venture <strong><a href="https://commently.wixsite.com/commently" target="_blank" class="link-black">Commently</a></strong>, a platform which creates a <strong>visual report based upon analyzing customer ratings and reviews</strong> using Natural Language Processing.</li>
                             <li>Fully ideated and presented to the judges the value proposition, market research, and the affiliate model for the venture.</li>
                             <li>Development for the venture in progress : <strong>Integrated the back-end to the front-end</strong> using React to access the <strong> django API</strong> and also built a <strong>search optimization filter</strong>.</li>
                             <li><em><a href="https://github.com/AnshulShirude/Commently" target="_blank" class="link-black">GitHub</a> code can be made available upon request.</em></li>
@@ -48,7 +48,7 @@ const Clubs = () => {
                         <h4>January 2023 - April 2023</h4>
                         <ul>
                             <li><a href="https://www.nuentrepreneursclub.com/" target="_blank" class="link-black">Entrepreneur's Club</a> is Northeastern's largest student-led organization on campus with over 2000 active members and more than 30 events each semester across 4 programs.</li>
-                            <li>Took part in the <a href="https://www.nuentrepreneursclub.com/hsc" target="_blank" class="link-black">Husky Startup Challenge</a> to develop my venture <strong><a href="https://www.canva.com/design/DAFd2oafMp8/9YSWjSzu-znNME6JQyZ-fA/edit?utm_content=DAFd2oafMp8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="link-black">Commently</a></strong>, the largest flagship program which provides early stage startups with the knowledge, resources, and mentorship they need to flourish.</li>
+                            <li>Took part in the <a href="https://www.nuentrepreneursclub.com/hsc" target="_blank" class="link-black">Husky Startup Challenge</a> to develop my venture <strong><a href="https://commently.wixsite.com/commently" target="_blank" class="link-black">Commently</a></strong>, the largest flagship program which provides early stage startups with the knowledge, resources, and mentorship they need to flourish.</li>
                         </ul>
                     </div>
                 </div>
