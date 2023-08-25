@@ -69,7 +69,7 @@ const Home = () => {
               <a href="https://github.com/AnshulShirude" target="_blank" className="link-black">GitHub</a>
             </div>
             <div className="resume-link">
-              <a href="https://drive.google.com/file/d/13xSg6J9xHYv1IOEHFzDyix4jvTo6oX66/view?usp=sharing" target="_blank" className="link-black">Resume</a>
+              <a href="https://drive.google.com/file/d/1Utxb6jXVZcSgIGDNC_BmBYonheR1ZjQc/view?usp=sharing" target="_blank" className="link-black">Resume</a>
             </div>
             <div className="linkedin-link">
               <a href="https://www.linkedin.com/in/anshul-shirude/" target="_blank" className="link-black">LinkedIn</a>
