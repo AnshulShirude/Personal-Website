@@ -62,17 +62,17 @@ const Home = () => {
             Hello, I am Anshul Shirude
           </div>
           <div className="description" ref={descriptionRef}>
-            I am a junior at 🐾 <a href="https://www.northeastern.edu/" target="_blank" className="link-gray-description">Northeastern University</a> 🐾 studying <strong>Computer Science</strong>. My interests lie in data visualization, machine learning, and full stack development.
+            I am a junior at 🐾 <a href="https://www.northeastern.edu/" target="_blank" rel="noreferrer" className="link-gray-description">Northeastern University</a> 🐾 studying <strong>Computer Science</strong>. My interests lie in data visualization, machine learning, and full stack development.
           </div>
           <div className="links"> 
             <div className="github-link">
-              <a href="https://github.com/AnshulShirude" target="_blank" className="link-black">GitHub</a>
+              <a href="https://github.com/AnshulShirude" target="_blank" rel="noreferrer" className="link-black">GitHub</a>
             </div>
             <div className="resume-link">
-              <a href="https://drive.google.com/file/d/1Utxb6jXVZcSgIGDNC_BmBYonheR1ZjQc/view?usp=sharing" target="_blank" className="link-black">Resume</a>
+              <a href="https://drive.google.com/file/d/1Zl7ZIbtz8LnrLrnNs1MkNlO0Lg85p_Uw/view?usp=sharing" target="_blank" rel="noreferrer" className="link-black">Resume</a>
             </div>
             <div className="linkedin-link">
-              <a href="https://www.linkedin.com/in/anshul-shirude/" target="_blank" className="link-black">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/anshul-shirude/" target="_blank" rel="noreferrer" className="link-black">LinkedIn</a>
             </div>
           </div>
         </div>
