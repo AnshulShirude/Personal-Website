@@ -2,12 +2,29 @@ import idea from '../images/ideaLogo.jpeg'
 import eclub from '../images/eclub.jpg'
 import disrupt from '../images/disrupt.png'
 import tamid from '../images/tamid.png'
+import sandbox from '../images/sandbox.jpg'
 
 const Clubs = () => {
     return (
         <div className="outer-container">
             <div className="inner-container">
                 <h1>⭐️ Clubs @ Northeastern ⭐️</h1>
+                <div>
+                    <div class="company">
+                        <img src={sandbox} alt="Logo" class="logo"/>
+                    </div>
+                    <div class="lined">
+                        <h4>September 2023 - Present</h4>
+                        <ul>
+                            <li><a href="https://www.sandboxnu.com/" target="_blank" rel="noreferrer" class="link-black">Sandbox</a> is Northeastern's student-led software consultancy building software for researchers, professors, and the student community.</li>
+                            <li>Working with the Museum of Fine Arts to completely digitize the form submission process. Currently, the paper forms that the MFA manages are passed between departments and positions in envelopes based on necessary signatures, approvals, etc.</li>
+                            <li>Completed a full backend rewrite by implementing 20+ REST API endpoints regarding employees, departments, signature, and form data within PostgreSQL database using a Prisma ORM.</li>
+                            <li>Developing components in ReactJS alongside NextJS and NestJS frameworks and integrated the frontend with the backend routes with ReactQuery.</li>
+                            <li>Working on implementing authentication to handle bearer token coordination to log in a user.</li>
+                            <li>Following the AGILE methodologies to grab tickets off a JIRA board and create and approve pull requests.</li>
+                        </ul>
+                    </div>
+                </div>
                 <div>
                     <div class="company">
                         <img src={tamid} alt="Logo" class="logo"/>
@@ -36,8 +53,11 @@ const Clubs = () => {
                             <li><a href="https://www.northeastern.edu/idea/" target="_blank" rel="noreferrer" class="link-black">IDEA</a> is Northeastern's student-led venture accelerator that fosters the development of entrepreneurs in the Northeastern community through the educational experience of developing a business from concept to launch.</li>
                             <li>Software Development Lead for my venture <strong><a href="https://commently.wixsite.com/commently" target="_blank" rel="noreferrer" class="link-black">Commently</a></strong>, a platform which creates a <strong>visual report based upon analyzing customer ratings and reviews</strong> using Natural Language Processing.</li>
                             <li>Fully ideated and presented to the judges the value proposition, market research, and the affiliate model for the venture.</li>
-                            <li>Development for the venture in progress : <strong>Integrated the back-end to the front-end</strong> using React to access the <strong> django API</strong> and also built a <strong>search optimization filter</strong>.</li>
-                            <li><em><a href="https://github.com/AnshulShirude/Commently" target="_blank" rel="noreferrer" class="link-black">GitHub</a> code can be made available upon request.</em></li>
+                            <li>Development for the venture in progress : <strong>Integrated the back-end to the front-end</strong> using React and Django frameworks to trigger and receive data via the Amazon API call.</li>
+                            <li><strong>Published the developed Chrome extension to the Chrome web store.</strong> <em>Privately available.</em></li>
+                            <li>Triggering the API call to receive product data on the Amazon product ➡️ Feeding the data with the use of a GPT wrapper to analyze and perform NLP analysis ➡️ Constitute a series of most mentioned points about the product for the user.</li>
+                            <li><strong>Programmed an innovative search engine</strong> with ML training model data and product rankings based on reviews.</li>
+                            <li><em><a href="https://github.com/commently-ai" target="_blank" rel="noreferrer" class="link-black">GitHub</a> code can be made available upon request.</em></li>
                         </ul>
                     </div>
                 </div>

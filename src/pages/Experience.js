@@ -12,9 +12,10 @@ const Experience = () => {
                         <h4>July 2023 - December 2023</h4>
                         <ul>
                             <li><a href="https://emoneyadvisor.com/" target="_blank" rel="noreferrer" class="link-black">eMoney</a> is a comprehensive and scalable technology platform and services that empowers financial advisors to meet a broad range of financial planning needs for their clients.</li>                            
-                            <li><strong>Built a JavaScript service client parser login authenticator for 1500+ users by scraping data & managing cookies</strong> in C# to gather user data from the FI</li>
-                            <li>Investigating 500+ real-time production users, debugging by capturing web requests & coding hands-on with the backend Parser team</li>
-                            <li><strong>Handling HTTP requests and errors</strong> occurring with banks as they update in real-time</li>
+                            <li><strong>Built a JavaScript service client parser login authenticator for 1500+ users by scraping data & managing cookies</strong> in C# to gather user data from the financial institution.</li>
+                            <li>Built out a parser for a large bank to extract account data from users whilst appropriately handling cookies, navigations, tokens, and multi-factor authentication.</li>
+                            <li>Investigating 500+ real-time production users, debugging by capturing web requests & coding hands-on with the backend Parser team.</li>
+                            <li><strong>Handling HTTP requests and errors</strong> occurring with banks as they update in real-time.</li>
                             <li><em>Technologies: C#, .NET, HTTP, JavaScript, AWS, Web Scraping</em></li>
                         </ul>
                     </div>
