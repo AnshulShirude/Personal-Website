@@ -40,20 +40,22 @@ const Projects = () => {
                         </div>
                         <h4>Plot - September 2023</h4>
                         <ul>
-                            <li>Plot displays Google Maps with overlaid polygons representing various community gardens available to the user.</li>
-                            <li>Upon boot, Plot allows the user to either join a garden near them or create their own and add different plant types to the garden’s list with separate watering schedules.</li>
-                            <li>Built out the connection to our SQL database and wrote the underlying queries to create, update, and delete gardens.</li>
-                            <li>Triggered the Google Maps API to overlay the polygons for our gardens including contraint based garden creation.</li>
-                            <li>Fully functioning and developed React frontend integrated with a Spring boot backend framework.</li>
+                            <li>Plot displays <strong> Google Maps 📍 with overlaid polygons</strong> representing various community gardens 🪴 available to the user.</li>
+                            <li>Upon boot, Plot allows the user to either join a garden near them or create their own and add different plant types 🪴 to the garden’s list with separate watering schedules.</li>
+                            <li><strong>Built out the connection to our SQL database</strong> and wrote the underlying queries to create ✅, update, and delete ❌ gardens.</li>
+                            <li><strong>Triggered the Google Maps API</strong> to overlay the polygons for our gardens including constraint based garden creation.</li>
+                            <li>Fully functioning and <strong> developed React frontend integrated with a Spring boot backend framework</strong>.</li>
+                            <li>Technologies: ReactJS, Spring Boot framework, SQLite, Google Maps API, JavaScript, HTML, CSS, Java</li>
                             <li><em><a href="https://github.com/HackMIT2023/hackMit2023" target="_blank" rel="noreferrer" class="link-black">GitHub</a> and <a href="https://devpost.com/software/plot-yiq0cm?ref_content=user-portfolio&ref_feature=in_progress" target="_blank" rel="noreferrer" class="link-black">Devpost</a> code is available to view.</em></li>
                         </ul>
                         <h4>InstaShop - October 2023</h4>
                         <ul>
-                            <li>InstaShop will accept as input any grocery list to search at the Target retail store in Boston. Then, based on the store map of the Target, we will provide the exact route that you should take from the entrance to the exit to retrieve all of the items.</li>
-                            <li>Triggered the Target retail developer API to search for a certain item and retrieve the aisle number of the location within the given store.</li>
+                            <li>InstaShop will accept as input any grocery 🛒 list to search at the Target 🎯 retail store in Boston. Then, based on the store map of the Target, we will provide the exact route that you should take from the entrance to the exit to retrieve all of the items.</li>
+                            <li>Triggered the <strong>Target retail developer API </strong>to search for a certain item and retrieve the aisle number of the location within the given store.</li>
                             <li>Built out classes and functions to create and develop a graph with different nodes to mock the exact layout of the store.</li>
-                            <li>Programmed an efficient dynamic programming algorithm using a variance of the Traveling Salesman algorithm along with a breadth first search to return the shortest path from the entrance to retrieving all of your items to the exit. Optimized the algorithm down from exponential time!</li>
+                            <li>Programmed an <strong> efficient dynamic programming algorithm 💡 </strong>using a variance of the <strong>Traveling Salesman algorithm ✈️</strong> along with a <strong> breadth first search</strong> to return the shortest path from the entrance to retrieving all of your items to the exit. <strong>Optimized the algorithm down from exponential time! ⏱️</strong></li>
                             <li>Fully functioning and developed React frontend integrated with a mix of python, typescript, and javascript backend.</li>
+                            <li>Technologies: ReactJS, Target API, JavaScript, Python, TailwindCSS, TypeScript, </li>
                             <li><em><a href="https://github.com/AnshulShirude/InstaShop" target="_blank" rel="noreferrer" class="link-black">GitHub</a> and <a href="https://devpost.com/software/instashop?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank" rel="noreferrer" class="link-black">Devpost</a> code is available to view.</em></li>
                         </ul>
                     </div>

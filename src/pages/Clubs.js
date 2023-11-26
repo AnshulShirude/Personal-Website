@@ -17,11 +17,11 @@ const Clubs = () => {
                         <h4>September 2023 - Present</h4>
                         <ul>
                             <li><a href="https://www.sandboxnu.com/" target="_blank" rel="noreferrer" class="link-black">Sandbox</a> is Northeastern's student-led software consultancy building software for researchers, professors, and the student community.</li>
-                            <li>Working with the Museum of Fine Arts to completely digitize the form submission process. Currently, the paper forms that the MFA manages are passed between departments and positions in envelopes based on necessary signatures, approvals, etc.</li>
-                            <li>Completed a full backend rewrite by implementing 20+ REST API endpoints regarding employees, departments, signature, and form data within PostgreSQL database using a Prisma ORM.</li>
-                            <li>Developing components in ReactJS alongside NextJS and NestJS frameworks and integrated the frontend with the backend routes with ReactQuery.</li>
-                            <li>Working on implementing authentication to handle bearer token coordination to log in a user.</li>
-                            <li>Following the AGILE methodologies to grab tickets off a JIRA board and create and approve pull requests.</li>
+                            <li>Working with the Museum of Fine Arts to <strong> completely digitize the form submission process</strong>. Currently, the paper forms 📝 that the MFA manages are passed between departments and positions in envelopes ✉️ based on necessary signatures, approvals, etc.</li>
+                            <li>Completed a <strong> full backend rewrite by implementing 20+ REST API endpoints </strong> regarding employees, departments, signature, and form data within PostgreSQL database using a <strong> Prisma ORM</strong>.</li>
+                            <li>Developing components in <strong> ReactJS alongside NextJS and NestJS frameworks </strong>and integrated the frontend with the backend routes with ReactQuery.</li>
+                            <li>Working on <strong> implementing authentication </strong>✅ to handle bearer token coordination to log in a user.</li>
+                            <li>Following the AGILE methodologies to grab tickets 🎟️ off a JIRA board and create and approve pull requests.</li>
                         </ul>
                     </div>
                 </div>
