@@ -32,7 +32,7 @@ const Clubs = () => {
                     <div class="lined">
                         <h4>December 2021 - April 2023</h4>
                         <ul>
-                            <li><a href="https://nutamid.org/" target="_blank" rel="noreferrer" class="link-black">TAMID</a> is a national consulting club which connects undergraduate students with startups within the Israeli economy.</li>
+                            <li><a href="https://nutamid.org/" target="_blank" rel="noreferrer" class="link-black">TAMID</a> is a national consulting club which connects undergraduate students with startups.</li>
                             <li><strong>Revamped components</strong> using <strong>Tailwind CSS, improved conditional routing, and fixed security leakages</strong> for my first deliverable <a href="https://giftpicker.io/" target="_blank" rel="noreferrer" class="link-black">GiftPicker.</a ></li>
                             <li>Member of the <strong>full-stack team</strong> responsible for conceptualizing and developing a "Secret-Santa" 🎅 style gift exchange 🎁 integrated with <strong>k-means clustering algorithm</strong> to efficiently match users.</li>
                             <li><strong>Taught <a href="https://nutamid.org/tech-consulting/" target="_blank" rel="noreferrer" class="link-black">Tech Consulting Foundations</a></strong> to a group of 18 students, a course for students to learn <strong>HTML, CSS, JS, and React frameworks</strong> before joining <a href="https://nutamid.org/tech-consulting/" target="_blank" rel="noreferrer" class="link-black">Tech Consulting</a>.</li>
